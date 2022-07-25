@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/tailwind.css">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <h1 class="display-2">Hello World!</h1>
+    <h1>Industrial revolution and its consequences have been a disaster for the human race</h1>
+
+
+    <form id="form">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Test Field</span>
+            <input id="form-field" type="text" class="form-control" placeholder="Placeholder" aria-label="Test Field" aria-describedby="basic-addon1">
+            <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Submit</button>
+        </div>
+    </form>
+    <br>
+    <h4>Last entered value: <span id="form-field-value">NOT YET ENTERED</span></h4>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
